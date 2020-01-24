@@ -17,7 +17,7 @@ namespace CraigTheBot.Bot.Commands
                 {
                     var database = DBConnector.Instance;
 
-                    var itemList = ItemModule.GetItemsFromServer(Context.Guild.Id.ToString());
+                    var itemList = ItemModule.GetItemsFromShop(Context.Guild.Id.ToString());
 
                     string tempString = "";
                     int i = 0;
